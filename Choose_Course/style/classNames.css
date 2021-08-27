@@ -1,0 +1,42 @@
+.front-end{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+
+    font-size: 45px;
+    color: red;
+    text-align: center;
+    padding-top: 45;
+
+    border-color: purple;
+    
+}
+.back-end{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: red;
+
+    font-size: 45px;
+    color: aqua;
+    text-align: center;
+    padding-top: 45;
+
+    border-color: purple;
+}
+.under-line{
+    transition: 0.5s;
+    position: relative;
+    background-color: rgb(238, 255, 0);
+    top: 91%;
+    left: 0;
+    height: 9%;
+    width: 50%;
+    z-index: 2;
+
+}
+
+.front-end:hover, .back-end:hover{
+    background-color: purple;
+}
